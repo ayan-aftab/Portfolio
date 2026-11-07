@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Ayan Aftab — Frontend Developer</title>
+    <meta name="description" content="3D scroll-animated portfolio of Ayan Aftab, frontend developer from Pakistan.">
+    <link rel="icon" href="images/logo.webp">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Fira+Code:wght@400;500&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="bar"></div>
+    <div id="bg">
+        <div class="orb o1"></div>
+        <div class="orb o2"></div>
+        <div class="orb o3"></div>
+        <div class="floor"></div>
+    </div>
+    <nav><a href="#hero" class="logo"><img src="images/logo.webp" alt="Ayan Aftab logo">AYAN AFTAB</a>
+        <ul class="mono">
+            <li><a href="#about">about</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#cars">cars</a></li>
+            <li><a href="#path">journey</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero">
+        <div class="wrap">
+            <div class="hx" id="hx">
+                <p class="tag mono">&lt;hello world /&gt;</p>
+                <h1><span class="gt">AYAN</span><br>AFTAB</h1>
+                <p class="role">FRONTEND DEVELOPER</p>
+                <p class="sub">I turn ideas into clean, responsive and creative web experiences with HTML, CSS and a
+                    love for 3D motion.</p>
+                <div class="cta"><a class="btn p" href="#work">See my work</a><a class="btn" href="#contact">Let’s
+                        talk</a></div>
+            </div>
+            <div class="stage">
+                <div class="pw" id="pw">
+                    <div class="scene">
+                        <div class="ring r1"></div>
+                        <div class="ring r2"></div>
+                        <div class="logo3d"><img src="images/logo.webp" alt="Ayan Aftab logo"></div>
+                        <span class="chip" style="--a:0deg">HTML</span><span class="chip"
+                            style="--a:60deg">CSS</span><span class="chip" style="--a:120deg">UI/UX</span><span
+                            class="chip" style="--a:180deg">JS</span><span class="chip"
+                            style="--a:240deg">Figma</span><span class="chip" style="--a:300deg">3D</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hint mono">SCROLL</div>
+    </section>
+
+    <div class="marq">
+        <div id="mq"></div>
+    </div>
+
+    <section id="about">
+        <div class="ghost" data-gx="-1">ABOUT</div>
+        <div class="wrap">
+            <p class="tag mono">// about</p>
+            <h2 class="rv">Code. Create. <span class="gt">Conquer.</span></h2>
+            <p id="scrub" data-sp=".05"
+                data-t="I’m Ayan, a frontend developer from Pakistan who turns ideas into *clean, responsive and creative* web experiences. CSS is my strongest weapon, I’m learning *full stack development* right now, and I write code with the same precision I admire in BMW M cars and motorsports.">
+            </p>
+            <div class="stats" data-sp="-.05">
+                <div class="stat tilt rv rl"><b data-n="33">0</b><small>GitHub repositories</small></div>
+                <div class="stat tilt rv"><b data-n="92">0</b><small>% CSS score</small></div>
+                <div class="stat tilt rv"><b data-n="100">0</b><small>% responsive mindset</small></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work">
+        <div class="pin">
+            <div class="wrap">
+                <p class="tag mono">// selected work</p>
+                <h2>Things I’ve <span class="gt">built.</span></h2>
+            </div>
+            <div class="track" id="tk">
+
+                <article class="card" style="--cg:var(--pk)">
+                    <div class="n">01</div>
+                    <div>
+                        <h3>Online Ordering System</h3>
+                        <p>A web application for online food ordering with an integrated chat system for customer
+                            support.</p>
+                        <div class="chips"><span>HTML</span><span>CSS</span><span>Responsive</span></div><a class="l"
+                            href="https://ayan-aftab.github.io/kit-cus/" target="_blank" rel="noopener">Live
+                            demo ↗</a>
+                    </div>
+                </article>
+
+
+                <article class="card" style="--cg:var(--pk)">
+                    <div class="n">02</div>
+                    <div>
+                        <h3>YouTube Homepage Clone</h3>
+                        <p>A frontend recreation of the YouTube homepage, built to sharpen layout, responsive design and
+                            attention to detail.</p>
+                        <div class="chips"><span>HTML</span><span>CSS</span><span>Responsive</span></div><a class="l"
+                            href="https://ayan-aftab.github.io/youtube-homepage/" target="_blank" rel="noopener">Live
+                            demo ↗</a>
+                    </div>
+                </article>
+
+
+
+                <article class="card" style="--cg:var(--pu)">
+                    <div class="n">03</div>
+                    <div>
+                        <h3>Nova Project</h3>
+                        <p>A gradient-themed website layout focused on clean sections, structure and a professional
+                            look.</p>
+                        <div class="chips"><span>HTML</span><span>CSS</span><span>Animations</span></div><a class="l"
+                            href="https://ayan-aftab.github.io/Nova-Project/" target="_blank" rel="noopener">View on
+                            GitHub ↗</a>
+                    </div>
+                </article>
+
+                <article class="card" style="--cg:var(--pu)">
+                    <div class="n">04</div>
+                    <div>
+                        <h3>Construction Website</h3>
+                        <p>A construction-themed website layout focused on clean sections, structure and a professional
+                            look.</p>
+                        <div class="chips"><span>HTML</span><span>CSS</span><span>Layout</span></div><a class="l"
+                            href="https://github.com/ayan-aftab/Construction-Assignment" target="_blank"
+                            rel="noopener">View on GitHub ↗</a>
+                    </div>
+                </article>
+                <article class="card" style="--cg:var(--pu)">
+                    <div class="n">05</div>
+                    <div>
+                        <h3>Buildream Website</h3>
+                        <p>A buildream-themed website layout focused on clean sections, structure and a professional
+                            look.</p>
+                        <div class="chips"><span>HTML</span><span>CSS</span><span>Layout</span></div><a class="l"
+                            href="https://github.com/ayan-aftab/Buildream-Assignment" target="_blank"
+                            rel="noopener">View on GitHub ↗</a>
+                    </div>
+                </article>
+
+
+                <article class="card" style="--cg:var(--pk)">
+                    <div class="n">06</div>
+                    <div>
+                        <h3>Aevron Website</h3>
+                        <p>Scroll-based-Animation website with smooth transitions and modern design elements.</p>
+                        <div class="chips"><span>HTML</span><span>CSS</span><span>Responsive</span></div><a class="l"
+                            href="https://ayan-aftab.github.io/Aevron" target="_blank" rel="noopener">Live
+                            demo ↗</a>
+                    </div>
+                </article>
+
+                <article class="card" style="--cg:var(--or)">
+                    <div class="n">07</div>
+                    <div>
+                        <h3>SMIT WMA Assignments</h3>
+                        <p>Web development assignments from the SMIT Web &amp; Mobile App course covering core HTML and
+                            CSS fundamentals.</p>
+                        <div class="chips"><span>HTML</span><span>CSS</span><span>Practice</span></div><a class="l"
+                            href="https://github.com/ayan-aftab/SMIT-WMA-Assignments" target="_blank"
+                            rel="noopener">View on GitHub ↗</a>
+                    </div>
+                </article>
+
+
+                <article class="card" style="--cg:var(--vi)">
+                    <div class="n">08</div>
+                    <div>
+                        <h3>More on GitHub</h3>
+                        <p>33 repositories and growing. Every project is a step in the Learn → Build → Improve → Repeat
+                            loop.</p>
+                        <div class="chips"><span>Always building</span></div><a class="l"
+                            href="https://github.com/ayan-aftab?tab=repositories" target="_blank" rel="noopener">Explore
+                            all repos ↗</a>
+                    </div>
+                </article>
+            </div>
+            <div class="dots" id="dots"><i><b></b></i><i><b></b></i><i><b></b></i><i><b></b></i></div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="ghost" data-gx="1">SKILLS</div>
+        <div class="wrap">
+            <p class="tag mono">// skills</p>
+            <h2 class="rv">My <span class="gt">toolkit.</span></h2>
+            <div class="sk">
+                <div class="tilt rv rl">
+                    <div class="pie" data-v="92"><b>92%</b></div>
+                    <h4>CSS</h4><small>Layouts, 3D, animations</small>
+                </div>
+                <div class="tilt rv">
+                    <div class="pie" data-v="90"><b>98%</b></div>
+                    <h4>HTML</h4><small>Semantic &amp; clean</small>
+                </div>
+                <div class="tilt rv">
+                    <div class="pie" data-v="78"><b>78%</b></div>
+                    <h4>UI / UX Design</h4><small>Figma, Canva, Photoshop</small>
+                </div>
+                <div class="tilt rv rr">
+                    <div class="pie" data-v="10"><b>10%</b></div>
+                    <h4>JavaScript</h4><small>Just getting started</small>
+                </div>
+            </div>
+            <div class="tools rv" data-sp="-.06">
+                <span>Figma</span><span>Photoshop</span><span>Blender</span><span>Unity</span><span>Canva</span><span>Netlify</span><span>Vercel</span><span>Git
+                    &amp; GitHub</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="cars">
+        <div class="ghost" data-gx="1">CARS</div>
+        <div class="carbg">
+            <div class="cs"><svg viewBox="0 0 1180 290" aria-hidden="true">
+                    <defs>
+                        <filter id="gl" x="-50%" y="-50%" width="200%" height="200%">
+                            <feGaussianBlur stdDeviation="5" result="b" />
+                            <feMerge>
+                                <feMergeNode in="b" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                        <linearGradient id="bd" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0" stop-color="#2a2a38" />
+                            <stop offset=".35" stop-color="#0d0d14" />
+                            <stop offset="1" stop-color="#050508" />
+                        </linearGradient>
+                        <linearGradient id="gs" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0" stop-color="#1c2a66" />
+                            <stop offset="1" stop-color="#070b24" />
+                        </linearGradient>
+                        <linearGradient id="bw" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0" stop-color="#ffffff" />
+                            <stop offset="1" stop-color="#b9bfdc" />
+                        </linearGradient>
+                        <radialGradient id="ugg">
+                            <stop offset="0" stop-color="#ff1c3c" stop-opacity=".9" />
+                            <stop offset="1" stop-color="#ff1c3c" stop-opacity="0" />
+                        </radialGradient>
+                    </defs>
+                    <line class="spd" x1="-60" y1="90" x2="140" y2="90" stroke="#8a4be0" stroke-width="3" />
+                    <line class="spd" x1="-120" y1="140" x2="100" y2="140" stroke="#ff1cb8" stroke-width="3"
+                        style="animation-duration:.6s" />
+                    <line class="spd" x1="-80" y1="190" x2="120" y2="190" stroke="#f7a233" stroke-width="3"
+                        style="animation-duration:.5s" />
+                    <ellipse class="ug" cx="400" cy="250" rx="420" ry="16" fill="url(#ugg)" />
+                    <ellipse class="ug" cx="1000" cy="250" rx="210" ry="12" fill="url(#ugg)" />
+                    <line x1="0" y1="247" x2="1180" y2="247" stroke="#8a4be0" stroke-opacity=".6" stroke-width="2" />
+                    <!-- BMW M5 CS F90 (stylised) -->
+                    <g transform="translate(10 0)">
+                        <path
+                            d="M45 178 L45 150 Q48 132 70 124 L95 118 L235 108 Q285 100 318 68 Q335 55 380 52 L470 52 Q520 55 548 92 L572 104 L700 124 Q750 132 765 152 L768 178 Q768 192 752 194 L665 194 A65 65 0 0 0 535 194 L262 194 A65 65 0 0 0 132 194 L62 194 Q45 192 45 178 Z"
+                            fill="url(#bd)" stroke="#8a4be0" stroke-width="2" />
+                        <path d="M330 95 L347 68 Q360 60 387 59 L462 59 Q500 60 528 94 Z" fill="url(#gs)" />
+                        <path d="M425 59 L425 95 M330 95 L336 190 M505 95 L510 190" stroke="#fff" stroke-opacity=".14"
+                            stroke-width="2" fill="none" />
+                        <path d="M70 124 L120 114 L124 118 L74 129 Z" fill="#000" stroke="#ff2a2a" stroke-width="1.5" />
+                        <path d="M95 134 L745 142 M110 124 L690 128" stroke="#fff" stroke-opacity=".2" stroke-width="2"
+                            fill="none" />
+                        <path d="M560 100 L585 104 L575 112 L552 108 Z" fill="#0a0a10" stroke="#8a4be0" />
+                        <path d="M705 150 L760 156 L762 168 L706 162 Z M706 166 L762 172 L760 182 L710 176 Z"
+                            fill="#000" stroke="#8a4be0" stroke-opacity=".8" />
+                        <path class="hl" d="M708 131 L760 141 L757 150 L705 140 Z" fill="#ff2a2a" filter="url(#gl)" />
+                        <path class="hl" d="M44 132 L52 130 L56 148 L46 150 Z" fill="#ff2a2a" filter="url(#gl)" />
+                        <path d="M640 168 L675 172 M640 175 L675 179 M640 182 L675 186" stroke="#e7222e"
+                            stroke-width="0" fill="none" />
+                        <g stroke-width="5">
+                            <path d="M600 160 l30 3" stroke="#81c4ff" />
+                            <path d="M598 168 l30 3" stroke="#0066b1" />
+                            <path d="M596 176 l30 3" stroke="#e7222e" />
+                        </g>
+                        <circle cx="50" cy="186" r="6" fill="#050508" stroke="#9a9cc4" />
+                        <circle cx="68" cy="188" r="6" fill="#050508" stroke="#9a9cc4" />
+                        <g class="wh" data-r="54" transform="translate(197 194)"></g>
+                        <g class="wh" data-r="54" transform="translate(600 194)"></g>
+                        <polygon class="hl" points="760,142 1000,100 1000,200" fill="#ff1c3c" opacity=".0" />
+                    </g>
+                    <!-- BMW M 1000 RR (stylised) -->
+                    <g transform="translate(830 0)">
+                        <path d="M70 198 L130 170 M130 170 L200 150" stroke="#555" stroke-width="9" fill="none"
+                            stroke-linecap="round" />
+                        <path d="M290 112 L300 198" stroke="#9a9cc4" stroke-width="7" stroke-linecap="round" />
+                        <path d="M175 148 L255 148 L268 190 L170 190 Z" fill="#0b0b12" stroke="#8a4be0" />
+                        <path
+                            d="M20 150 Q60 118 130 118 L175 112 Q215 90 252 100 L290 112 L316 86 L324 112 Q334 142 322 168 L286 192 Q230 202 170 192 L122 182 L84 174 Z"
+                            fill="url(#bw)" stroke="#8a4be0" stroke-width="1.5" />
+                        <path d="M60 142 Q100 124 160 124 L210 112 L215 124 L120 140 Z" fill="#0a0a12" />
+                        <path d="M205 110 Q240 96 275 108 L286 114 Q250 108 215 122 Z" fill="#0066b1" />
+                        <path d="M130 160 L300 150 L322 160 L318 172 L130 174 Z" fill="#0066b1" />
+                        <path d="M130 176 L300 170 L284 186 L132 182 Z" fill="#e7222e" />
+                        <path d="M130 154 L300 143 L304 149 L130 160 Z" fill="#81c4ff" />
+                        <path d="M298 112 L316 88 L318 108 Z" fill="#9fd3ff" fill-opacity=".45" />
+                        <path class="hl" d="M312 124 L326 130 L322 140 L308 134 Z" fill="#ff2a2a" filter="url(#gl)" />
+                        <path d="M18 150 L40 168" stroke="#e7222e" stroke-width="6" stroke-linecap="round" class="hl" />
+                        <path d="M30 168 L10 184" stroke="#333" stroke-width="7" stroke-linecap="round" />
+                        <g class="wh" data-r="48" transform="translate(70 198)"></g>
+                        <g class="wh" data-r="48" transform="translate(300 198)"></g>
+                    </g>
+                </svg>
+                <div class="cap mono">BMW M5 CS (F90) + BMW M 1000 RR · RACING MODE</div>
+            </div>
+        </div>
+        <div class="wrap">
+            <p class="tag mono">// fun fact</p>
+            <h2 class="rv">Born to <span class="gt">drive history.</span></h2>
+            <div class="fun rv">⚡ <b>Favourite Hobby:</b> I love learning the history of <b>cars</b>, the machines and
+                the
+                engineering behind them, not the people.</div>
+            <div class="road" id="road"><span id="car">🏎️</span></div>
+            <div class="fg">
+                <div class="fact tilt rv rl">
+                    <div class="yr">1769</div>
+                    <h3>Cugnot’s steam wagon</h3>
+                    <p>The first self-propelled road vehicle was a steam-powered French artillery tractor, moving at
+                        roughly walking speed.</p>
+                </div>
+                <div class="fact tilt rv rr">
+                    <div class="yr">1886</div>
+                    <h3>Benz Patent-Motorwagen</h3>
+                    <p>A three-wheeler with a single-cylinder petrol engine, patented in 1886 and widely seen as the
+                        first true automobile.</p>
+                </div>
+                <div class="fact tilt rv rl">
+                    <div class="yr">1908</div>
+                    <h3>Ford Model T</h3>
+                    <p>Built to be affordable for ordinary families, it put the world on wheels, with over 15 million
+                        made by 1927.</p>
+                </div>
+                <div class="fact tilt rv rr">
+                    <div class="yr">1913</div>
+                    <h3>The moving assembly line</h3>
+                    <p>Ford’s line cut the time to build a Model T from more than 12 hours to about 90 minutes.</p>
+                </div>
+                <div class="fact tilt rv rl">
+                    <div class="yr">1938</div>
+                    <h3>Volkswagen Beetle</h3>
+                    <p>Its design was set in the late 1930s and it kept going until 2003, with more than 21 million
+                        built.</p>
+                </div>
+                <div class="fact tilt rv rr">
+                    <div class="yr">1959</div>
+                    <h3>Volvo’s three-point seatbelt</h3>
+                    <p>Volvo gave the patent away to every carmaker, and it estimates the belt has saved over a million
+                        lives.</p>
+                </div>
+                <div class="fact tilt rv rl">
+                    <div class="yr">1972</div>
+                    <h3>BMW M is born</h3>
+                    <p>BMW Motorsport GmbH was founded to go racing. Its first road car, the mid-engined M1, arrived in
+                        1978.<br><span class="ms"><i></i><i></i><i></i></span></p>
+                </div>
+                <div class="fact tilt rv rr">
+                    <div class="yr">1997</div>
+                    <h3>Toyota Prius</h3>
+                    <p>The first mass-produced hybrid car went on sale in Japan, starting the shift toward electrified
+                        driving.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="path">
+        <div class="ghost" data-gx="-1">JOURNEY</div>
+        <div class="wrap">
+            <p class="tag mono">// journey</p>
+            <h2 class="rv">Learn. Build. Improve. <span class="gt">Repeat.</span></h2>
+            <div class="tl" id="tl">
+                <div class="fill" id="fill"></div>
+                <div class="step rv rl"><small class="mono">STEP 01</small>
+                    <h3>Foundations</h3>
+                    <p>Mastering HTML and CSS through hands-on assignments and clean, structured layouts.</p>
+                </div>
+                <div class="step rv rr"><small class="mono">STEP 02</small>
+                    <h3>Real-world clones</h3>
+                    <p>Rebuilding products like the YouTube homepage to practise responsive design and pixel detail.</p>
+                </div>
+                <div class="step rv rl"><small class="mono">STEP 03</small>
+                    <h3>CSS motion &amp; 3D</h3>
+                    <p>Pushing CSS further with animations, 3D transforms and scroll-based effects.</p>
+                </div>
+                <div class="step rv rr"><small class="mono">NOW</small>
+                    <h3>JavaScript &amp; full stack</h3>
+                    <p>Levelling up JavaScript and learning to build complete web apps. Open to collaborations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="ghost" data-gx="1">CONTACT</div>
+        <div class="wrap">
+            <p class="tag mono">// contact</p>
+            <h2 class="rv">Let’s build something <span class="gt">great.</span></h2>
+            <div class="cg">
+                <div class="cl rv rl">
+                    <a href="mailto:ayanayanaftab777@gmail.com"><span>Email</span><span
+                            class="mono">ayanayanaftab777@gmail.com</span></a>
+                    <a href="https://linkedin.com/in/ayan-aftab" target="_blank"
+                        rel="noopener"><span>LinkedIn</span><span>↗</span></a>
+                    <a href="https://github.com/ayan-aftab" target="_blank"
+                        rel="noopener"><span>GitHub</span><span>↗</span></a>
+
+                    <a href="https://drive.google.com/file/d/1Yofy4fXlD9UDqLtQ7WsL4y6UB23SpgFU/view?usp=sharing"
+                        target="_blank" rel="noopener"><span>Resume</span><span>↗</span></a>
+                </div>
+                <form id="cf" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot" class="rv rr">
+                    <input type="hidden" name="form-name" value="contact">
+                    <input class="hp" name="bot" tabindex="-1" autocomplete="off" aria-hidden="true">
+                    <input name="name" placeholder="Your name" required autocomplete="name">
+                    <input name="email" type="email" placeholder="Your email" required autocomplete="email">
+                    <input name="subject" placeholder="Subject" autocomplete="off">
+                    <textarea name="message" placeholder="Tell me about your project…" required></textarea>
+                    <button class="btn p" type="submit" id="sb">Send message →</button>
+                    <div id="msg" role="status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="mono">© 2026 Ayan Aftab · Code with precision. Build with passion.</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
